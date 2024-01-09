@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  padding-right: 18vh;
+  font-size: 23px;
+}
+
+.container { 
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+  border: none;
+  width: 60vh;
+  height: 60vh;
+  border-radius: 20px;
+/*   transform: translate(55vh, 22vh); */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.btn {
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  padding-block: 0.5rem;
+  padding-inline: 1.25rem;
+  background-color: #0070b1;
+  border-radius: 9999px;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+  gap: 10px;
+  font-weight: bold;
+  border: 3px solid #ffffff4d;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+  width: 27vh;
+  margin: auto;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  border-color: #a1d3ed;
+}
+
+.img-center {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 55vh;
+  padding-top: 20vh;
+}
+
+.icon {
+  width: 3vh;
+  margin-left: 1vh;
+}
+
+.input-field {
+  background: #eaeaea;
+  margin: 15px 0;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  height: 7vh;
+}
+
+.input-field input {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding: 18px;
+  margin-bottom: 1px;
+}
+
+.check-field {
+  display: flex;
+  font-size: 13px;
+  padding-bottom: 13px;
+  padding-top: 1vw;
+  
+}
+
+
+.check-field p {
+  padding-right: 67%;
+  margin-left: 8px;
+}
+
+.forgotpass {
+  display: flex;
+  font-size: small;
+  padding-top: 25px;
+  transform: translateX(100px);
+  text-decoration: none;
+}
+
+.error{
+  color: red;
+}

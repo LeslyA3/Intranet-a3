@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+
+}
+h1{
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    padding-left: 6vw ;
+    padding-bottom: 20px;
+}
+.container2 {
+    padding: 30px;
+    margin: 3vw;
+    display: flex;
+    background-color: white;
+    border: none;
+    width: 30vw;
+    height: 34vw;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.containerV3{
+    background: #EEEEEE;
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    
+    
+}
+.containerV4{
+    background: white;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    padding: 3vw;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+
+input{
+    /* background: #eaeaea;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    height: 3vw; */
+    margin-bottom: 10px;
+
+}
+
+.options{
+    width: 15vw;
+    width: 15vw;
+    border: 1px solid;
+    border-radius: 4px;
+}
+.details{
+    height: 4vw;
+}
+.inputStyleV2{
+margin-bottom: 10px;
+height: 2vw;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.sizeBtn{
+    width: 17vh;
+    box-shadow: none;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .sizeBtn:hover{
+    background-color: white;
+    color:#0070b1;
+    border: 1px solid #0070b1;
+  }
+  .btnStyle{
+    
+  }

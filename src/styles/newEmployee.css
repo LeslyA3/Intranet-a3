@@ -1,0 +1,12 @@
+.size1{
+    font-size: 17px;
+}
+
+.checkboxs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.checkV1{
+    margin-top: 3px;
+}

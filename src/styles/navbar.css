@@ -1,0 +1,37 @@
+
+.logo{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.navbar-start{
+    margin: 3vh !important;
+}
+
+.button{
+    border: 2px solid #A1D3ED;
+    background:#0070B1;
+    color: white;
+    border-radius: 20px;
+    font-size: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 19px;
+}
+.buttons :hover{
+    color: white;
+    transform: scale(1.02);
+    border-color: #A1D3ED;
+}
+.color{
+    background-color: white;
+}
+
+.enlace{
+    padding-right: 3vw;
+    text-decoration: none;
+    color: black;
+}
+
+.enlance:hover{
+    color: #0070B1;
+}
